@@ -97,7 +97,7 @@ const Navbar = () => {
                                         to="/signup"
                                         className={classNames('block px-4 py-2 rounded-md text-lg font-medium text-white  hover:bg-purple-900 hover:text-white')}
                                     >
-                                        SinUp
+                                        SignUp
                                     </NavLink>
                                 }
                                 {
