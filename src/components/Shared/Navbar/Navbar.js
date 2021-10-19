@@ -4,7 +4,6 @@ import { Fragment } from 'react'
 // eslint-disable-next-line no-unused-vars
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-// import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import { NavLink } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 

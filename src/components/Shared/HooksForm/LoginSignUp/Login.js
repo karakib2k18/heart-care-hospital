@@ -10,12 +10,12 @@ const Login = () => {
     const location = useLocation();
     const history = useHistory();
     const redirect_url = location?.state?.from || "/home";
-    console.log(redirect_url)
+    // console.log(redirect_url)
     const onSubmit = data => {
         handleSignInWithEmailPassword(data.email, data.password)
             .then((result) => {
                 history.push(redirect_url)
-                console.log('login succesfull')
+                // console.log('login succesfull')
             })
             .catch((error) => {
                 console.log(error.message);
@@ -25,8 +25,10 @@ const Login = () => {
     const loginFinalWithGmail = () => {
         handleSignInWithGoogle()
             .then((result) => {
+                console.log(result.user)
                 history.push(redirect_url)
-                console.log('login succesfull')
+                // console.log('login succesfull')
+                
             })
             .catch((error) => {
                 console.log(error.message);
@@ -35,7 +37,7 @@ const Login = () => {
 
     return (
         <div>
-            <h1 className="text-4xl text-black-900 mt-10 mb-10 font-bold text-center ">Login Now</h1>
+            <h1 className="text-4xl text-black-900 mt-16 mb-10 font-bold text-center ">Login Now</h1>
             <form className="w-full max-w-lg mx-auto  mb-3 " onSubmit={handleSubmit(onSubmit)}>
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3">
@@ -77,7 +79,7 @@ const Login = () => {
                     </div>
                 </div>
             </form>
-            <button onClick={loginFinalWithGmail} className="googlebuttonmiddle  flex bg-opacity-25  mx-auto py-2 font-semibold mb-10 text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-5">
+            <button onClick={loginFinalWithGmail} className="googlebuttonmiddle lg:mb-44 flex bg-opacity-25  mx-auto py-2 font-semibold mb-10 text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-5">
                 Login With Google
             </button>
 

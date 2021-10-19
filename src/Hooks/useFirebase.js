@@ -54,7 +54,7 @@ const useFirebase = () => {
             if (user) {
                 setUser(user);
             } else {
-                console.log("User is signed out");
+                // console.log("User is signed out");
                 setUser({})
             }
             setIsLoading(false)

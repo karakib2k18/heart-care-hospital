@@ -1,32 +1,3 @@
-// import React, { useEffect, useState } from 'react';
-// // import HeartCareCard from '../../Shared/HeartCareCard/HeartCareCard';
-// // import HeartCareCard from '../../../components/Shared/HeartCareCard';
-// const Doctors = () => {
-//     const { doctors, setDoctors } = useState([]);
-//     // const [isLoading, setIsLoading] = useState(true);
-//     useEffect(() => {
-//         fetch('/doctorslist.json')
-//             .then(response => response.json())
-//             .then(json => {
-//                 setDoctors(json)
-//                 // setIsLoading(false)
-//                 console.log(json)
-//             })
-//         // eslint-disable-next-line react-hooks/exhaustive-deps
-//     }, []);
-//     return (
-//         <>
-//             {doctors.map(doctor => (
-
-//                 console.log(doctor.id)
-//                 // <HeartCareCard key={doctor.id} doctor={doctor}></HeartCareCard>
-//             ))}
-//         </>
-//     );
-// };
-
-// export default Doctors;
-
 import React, { useEffect, useState } from 'react';
 import HeartCareCard from '../../Shared/HeartCareCard/HeartCareCard';
 

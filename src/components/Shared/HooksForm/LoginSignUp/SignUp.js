@@ -10,12 +10,12 @@ const SignUp = () => {
     const history = useHistory();
     const location = useLocation();
     const redirect_url = location?.state?.from || "/home";
-    console.log(redirect_url)
+    // console.log(redirect_url)
     const onSubmit = data => {
         handleCreateUserWithEmailPassword(data.email, data.password)
             .then((result) => {
                 history.push(redirect_url)
-                console.log('login succesfull')
+                // console.log('login succesfull')
             })
             .catch((error) => {
                 console.log(error.message);
@@ -25,8 +25,9 @@ const SignUp = () => {
     const loginFinalWithGmail = () => {
         handleSignInWithGoogle()
             .then((result) => {
+                // console.log(result.user)
                 history.push(redirect_url)
-                console.log('login succesfull')
+                // console.log('login succesfull')
             })
             .catch((error) => {
                 console.log(error.message);
@@ -36,7 +37,7 @@ const SignUp = () => {
 
     return (
         <div>
-            <h1 className="text-4xl text-black-900 mt-10 mb-10 font-bold text-center ">SignUp Now</h1>
+            <h1 className="text-4xl text-black-900 mt-16 mb-10 font-bold text-center ">SignUp Now</h1>
             <form className="w-full max-w-lg mx-auto  mb-3 " onSubmit={handleSubmit(onSubmit)}>
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3">
@@ -89,7 +90,7 @@ const SignUp = () => {
                     </div>
                 </div>
             </form>
-            <button onClick={loginFinalWithGmail} className="bg-opacity-25 flex  mx-auto py-2 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 px-5 mb-10">
+            <button onClick={loginFinalWithGmail} className="bg-opacity-25 flex lg:mb-32  mx-auto py-2 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 px-5 mb-10">
                 Login With Google
             </button>
         </div>

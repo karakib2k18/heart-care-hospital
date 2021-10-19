@@ -1,8 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import useAuth from '../../../../Hooks/useAuth';
-// import { useHistory, useLocation } from 'react-router';
-// import { Link } from 'react-router-dom';
 import swal from 'sweetalert';
 
 
