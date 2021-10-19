@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2018/04/11_crawford-hilpertshauser-frizzell.jpg",
+        "title": " Public Health Veteran Leads Global CDC Team from Atlanta During COVID-19 ",
+        "description": "I first learned about what would soon be called the COVID-19 pandemic after I returned from the 2020 New Year holidays and met with a colleague to resume work as usual. He mentioned that a “new coronavirus” had been identified in China. I thought to myself, “hopefully it won’t be as serious as SARS"
+    },
+    {
+        "id": 2 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2018/05/WNTD2018_blog_Alyson-825x510.jpg",
+        "title": "Moving to Atlanta to Help Stop COVID-19 in Kansas and Beyond",
+        "description": "Before the COVID-19 pandemic began, I was a Public Health Institute/CDC Global Health fellow in CDC’s Central America office located in Guatemala City, Guatemala. I developed communication strategies that showcase the important work of my colleagues in the region. I also managed disease surveillance projects in Honduras and the Dominican Republic and helped with research"
+    },
+    {
+        "id": 3 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2018/09/CDC-India-lab-825x510.jpg",
+        "title": "Routine Monitoring Reveals COVID-19 Surge in Brazil",
+        "description": "Brasilia, BRAZIL – A native of Brazil and a medical epidemiologist by training, I joined the CDC South America Regional Office on August 31, 2020, as its Senior Technical Advisor. The global pandemic had been going on for most of 2020, and I remember the sense of dread I had when I first heard about it"
+    },
+    {
+        "id": 4 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2018/08/Mukonka-Annual-Mtg-Rome-1.jpg",
+        "title": "Diverse Group of Atlanta Experts Support COVID-19 Field Team in Brazil",
+        "description": "When CDC staff go into the field to investigate outbreaks, a diverse group based in Atlanta supports their every move. Scientists create research protocols, logistics coordinators handle travel and lodging, someone looks for funds to pay for the work. I am an epidemiologist. Earlier this year, as the Atlanta lead for a team that deployed "
+    },
+    {
+        "id": 5 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2019/03/goerswindhoek1-565x510.jpg",
+        "title": "Going Home to Brazil to Investigate a New COVID-19 Variant was Enormously Rewarding",
+        "description": "MANAUS, Brazil – I was born and raised in Brazil, near the city of São Paulo. There, I got a medical education at a top institution, a privilege very few have. When I decided to come to the United States to pursue residency and training, it was not without some self-doubt. I knew the opportunities "
+    },
+    {
+        "id": 6 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2019/04/1st-CHILD-VACCINATED-825x510.jpg",
+        "title": "World Meningitis Day 2021: Improving Meningitis Surveillance in Burkina Faso",
+        "description": "Imagine losing a loved one to a tragic illness like meningitis, an illness that still ravages parts of the world. Meningitis represents a daunting and deadly health challenge for Africa, but today there is hope. April 24th—World Meningitis Day—presents an opportunity to both raise awareness about the dangers of meningitis and build on progress "
+    },
+    {
+        "id": 7 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2019/05/Screening-outside-temple-Nepal-Temple-825x510.jpg",
+        "title": "Continuing to Fight, 10 Years and 12 Outbreak Responses Later",
+        "description": "When I heard COVID-19 was spreading around the world, I struggled personally, knowing we would be responding for a long time. I needed a silver lining to keep me grounded and give me hope so that I could focus on helping my country. As COVID-19 spread across Europe"
+    },
+    {
+        "id": 8 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2019/05/Dr.-Ba-advising-patient-479x510.jpg",
+        "title": "Chagas disease in the United States: We’ve made lots of progress, but our work is not done",
+        "description": "I have seen many important and positive changes around Chagas disease awareness, diagnosis, and treatment over the past few years, but there is still much to do.  Chagas disease is caused by the parasite Trypanosoma cruzi. Chagas disease is usually spread by triatomine bugs but can also be spread by an infected mother to her unborn baby. It can lead to serious heart disease and, less often"
+    },
+    {
+        "id": 9 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2020/01/prevention-of-mother-to-child-transmission-809x510.jpg",
+        "title": "Ending the HIV/AIDS Epidemic: Community by Community",
+        "description": "The Centers for Disease Control and Prevention (CDC), a lead agency in the U.S. President’s Emergency Plan for AIDS Relief (PEPFAR), works every day with partners to accelerate HIV epidemic control efforts. Communities play a vital role in controlling and ultimately ending the epidemic. A key part of CDC’s efforts in Tanzania includes working "
+    },
+    {
+        "id":  10,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2019/11/blog-rwanda-800-800x510.jpg",
+        "title": "CDC Responders talk about their experiences in Rwanda",
+        "description": "Serving in Rwanda as an Assistant Ebola Coordinator CDC epidemiologist Shayne Gallaway served as Assistant Ebola Coordinator during multiple deployments to Rwanda for the 2018 Eastern DRC Ebola Response. Gallaway and team provided technical assistance to the Ministry of Health to prevent, detect, and respond to viral "
+    },
+    {
+        "id": 11 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2019/10/IMG_1705c-825x510.jpg",
+        "title": "World Day of Remembrance for Road Traffic Victims",
+        "description": " The World Day of Remembrance for Road Traffic Victims takes place every third Sunday in November. It serves as a way to: Remember the millions of people killed and injured in road traffic crashes, and recognize their families, friends, and communities; Pay tribute to the dedicated emergency responders, police, and medical professionals "
+    },
+    {
+        "id": 12 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2019/09/b-hv-bp-reading-825x510.png",
+        "title": "We can finish the job of Polio Eradication but, it will not be easy.",
+        "description": "This year, 2019, has been a challenging one for polio eradication.  Though we have made incredible gains in recent years, the polio program has faced two critical challenges. First, an increase in wild poliovirus (WPV) cases in Pakistan and Afghanistan, the only two countries with detected WPV cases since 2016. And second, a large increase "
+    },
+    {
+        "id": 13 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2019/08/Bill-in-the-Field-825x510.png",
+        "title": "Strengthening the Heart of a Community in Thailand Sampaow discusses her blood pressure reading with Monsasiporn and describes challenges she has been facing with self-monitoring. Photo credit: Henry Vandi",
+        "description": "Henry Vandi is a CDC Foundation field employee in the Division of Global Health Protection in CDC’s Center for Global Health As we approached a house surrounded by lush, tropical vegetation, a petite but muscular woman with a warm smile greeted us on the porch. “Hello! I’ve been waiting for you!” Sampaow said cheerfully, "
+    },
+    {
+        "id": 14 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2019/07/BreakwellL_headshot-825x510.jpg",
+        "title": "A life-long career dedicated to protecting people against mosquito borne diseases",
+        "description": "Many people don’t choose a career path until after college, or even after a few years of working in a particular field. But then, many are not like my former colleague, Dr. William (Bill) Brogdon. Bill first entered the doors of the Centers for Disease Control and Prevention as a 17-year-old high school studen"
+    },
+    {
+        "id": 15 ,
+        "img": "https://blogs.cdc.gov/global/wp-content/uploads/sites/25/2019/07/Community-Messaging-on-Ebola-basics-xl-825x510.jpg",
+        "title": "Three Responders talk about their experiences in Uganda",
+        "description": "Protecting Uganda’s Border Vance Brown, Ebola Coordinator and Deputy Director for the Division of Global Health Protection Program in Uganda. Vance and team provide technical support to the Government of Uganda to prevent, detect and respond to especially dangerous pathogens, including Ebola. “It was 8:00 p.m. on a Friday when I got the call. "
+    }
+]
