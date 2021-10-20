@@ -18,7 +18,7 @@ const Footer = () => {
                         <nav className="mt-4">
                             <ul className="space-y-2">
                                 <li>
-                                    <Link to="/" className="text-lg text-left float-left font-normal hover:text-purple-900">It's a heartcare hospital. We provide best service last fiv years. We have a lof of best and responsibe doctors. They always work hard to make you feel better. So stand with us</Link>
+                                    <Link to="/" className="text-lg  float-left font-normal hover:text-purple-900">It's a heartcare hospital. We provide best service last fiv years. We have a lof of best and responsibe doctors. They always work hard to make you feel better. So stand with us</Link>
                                 </li>
                             </ul>
                         </nav>
@@ -88,9 +88,9 @@ const Footer = () => {
                     <div>
                         <h5 className="text-xl font-semibold text-gray-900"> Emergency Contact</h5>
                         <div className="mt-4 space-y-4 md:space-y-6">
-                            <div className="flex items-start space-x-4">
-                                <div>
-                                    <svg className="w-6 h-6 mt-1 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            <div className="lg:flex lg:items-start space-x-4">
+                                <div className='flex justify-center mb-'>
+                                    <svg className="w-6 h-6 mt-1  text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                                 </div>
                                 <div className="flex-1">
                                     <address className="not-italic">
@@ -100,8 +100,8 @@ const Footer = () => {
                                     </address>
                                 </div>
                             </div>
-                            <div className="flex items-start space-x-4">
-                                <div>
+                            <div className="lg:flex lg:items-start space-x-4">
+                                <div className='flex justify-center mb-'>
                                     <svg className="w-6 h-6 mt-1 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                                 </div>
                                 <div className="flex-1">
@@ -113,7 +113,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col items-center justify-between max-w-screen-xl mx-auto mt-5 space-y-4 md:flex-row">
                     {/* <img className="h-8" src="/images/pathway-logo.svg" alt="UptimeMate logo" /> */}
-                    <h4>RAKIB Heart Care</h4>
+                    <h4 className='mt-2'>RAKIB Heart Care</h4>
                     <div className="text-sm">
                         ©2021 KAZI ABDUR RAKIB .All rights reserved.
                     </div>

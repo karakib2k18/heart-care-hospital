@@ -38,7 +38,7 @@ const Login = () => {
     return (
         <div>
             <h1 className="text-4xl text-black-900 mt-16 mb-10 font-bold text-center ">Login Now</h1>
-            <form className="w-full  max-w-lg mx-auto  mb-3 " onSubmit={handleSubmit(onSubmit)}>
+            <form className="w-full  max-w-lg mx-auto  mb-3 lg:px-0 px-4" onSubmit={handleSubmit(onSubmit)}>
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3">
                         <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-email">
