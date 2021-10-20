@@ -10,10 +10,11 @@ const useFirebase = () => {
 
     const auth = getAuth();
 
+
     const handleSignInWithGoogle = () => {
         setIsLoading(true)
         const googleProvider = new GoogleAuthProvider();
-       return signInWithPopup(auth, googleProvider)
+        return signInWithPopup(auth, googleProvider)
             // .then((result) => {
             //     setUser(result.user);
             //     console.log(result.user);
@@ -22,11 +23,12 @@ const useFirebase = () => {
             //     // serError(error.code);
             // })
             .finally(() => setIsLoading(false));
-
     }
+
+
     const handleCreateUserWithEmailPassword = (email, password) => {
         setIsLoading(true)
-       return createUserWithEmailAndPassword(auth, email, password)
+        return createUserWithEmailAndPassword(auth, email, password)
             // .then((result) => {
             //     setUser(result.user);
             //     console.log(result.user);
@@ -38,7 +40,7 @@ const useFirebase = () => {
     }
     const handleSignInWithEmailPassword = (email, password) => {
         setIsLoading(true)
-       return signInWithEmailAndPassword(auth, email, password)
+        return signInWithEmailAndPassword(auth, email, password)
             // .then((result) => {
             //     setUser(result.user);
             //     console.log(result.user);
@@ -69,7 +71,7 @@ const useFirebase = () => {
         }).catch((error) => {
             console.log("An error happened during the signout signout");
         })
-        .finally(() => setIsLoading(false));
+            .finally(() => setIsLoading(false));
     }
 
     return {
@@ -78,7 +80,7 @@ const useFirebase = () => {
         isLoading,
         handleSignInWithGoogle,
         handleSignInWithEmailPassword,
-        handleCreateUserWithEmailPassword
+        handleCreateUserWithEmailPassword,
     }
 };
 

@@ -7,7 +7,7 @@ const Footer = () => {
             <footer className="px-6=8 mt-8 py-6 text-gray-600 bg-gray-50 lg:text-left text-center lg:px-8 md:py-12">
                 <div className="max-w-screen-xl py-4 mx-auto mb-6 space-y-6 border-b-2 border-gray-200 lg:mb-4 md:py-4 lg:pb-6 md:flex md:justify-between md:items-center md:flex-row md:space-x-12 ">
                     <div className="flex-1 max-w-3xl ">
-                        <h4 className="text-2xl font-medium text-gray-900 sm:text-3xl md:text-4xl">You Think You Know What Happiness  Is?</h4>
+                        <h4 className="text-xl font-medium text-gray-900 sm:text-2xl md:text-3xl">You Think You Know What Happiness  Is?</h4>
                         <p className="mt-4 text-lg font-medium leading-relaxed text-gray-500 md:text-xl">Promise your reader something valuable. Will we help you to know how to lead a healthy life? Will you persuade her to do something she’s never done before? Let's come to our HealthCare for your beautiful life</p>
                     </div>
                     <Link to="/" className="inline-block px-5 py-4 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-8">Start 1-day free trail</Link>

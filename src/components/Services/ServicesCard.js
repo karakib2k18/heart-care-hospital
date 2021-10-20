@@ -17,7 +17,7 @@ const ServicesCard = ({ service }) => {
                 </div>
  
             </div>
-            <Link to={url}><button className="inline-block mt-8 px-1 py-2 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-8" type="submit">
+            <Link to={url}><button className="inline-block mt-8 px-2 py-2 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-8" type="submit">
                 See Details +
             </button></Link>
         </div>

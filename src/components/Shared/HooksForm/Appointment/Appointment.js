@@ -9,10 +9,20 @@ const SignUp = () => {
     const { user } = useAuth();
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
-        console.log(data)
-        swal("Good job!", "You have submitted the appointment!", "success", {
-            button: "Aww yeeee!",
-        });
+        swal({
+            title: "Are you sure?",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+        })
+            .then((willDelete) => {
+                if (willDelete) {
+                    console.log(data)
+                    swal("You have submitted the appointment!", "Good job!",  {
+                        icon: "success",
+                    });
+                }
+            });
     };
 
     return (
