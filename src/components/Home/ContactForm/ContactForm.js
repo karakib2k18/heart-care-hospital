@@ -4,7 +4,7 @@ const ContactForm = () => {
     return (
         <div>
             <div className="flex justify-center lg:-mt-64 items-center w-screen h-screen bg-white">
-                <div className="container mx-auto my-4 px-4 lg:px-20">
+                <div className="container mx-auto  px-4 lg:px-20">
 
                     <div className="w-full p-8 my-4  mr-auto rounded-2xl shadow-2xl lg:-mb-52">
                         <div className="flex">

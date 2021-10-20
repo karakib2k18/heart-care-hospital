@@ -38,7 +38,7 @@ const SignUp = () => {
     return (
         <div>
             <h1 className="text-4xl text-black-900 mt-16 mb-10 font-bold text-center ">SignUp Now</h1>
-            <form className="w-full max-w-lg mx-auto  mb-3 " onSubmit={handleSubmit(onSubmit)}>
+            <form className="w-full max-w-lg mx-auto  mb-3 lg:px-0 px-4 " onSubmit={handleSubmit(onSubmit)}>
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3">
                         <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-full-name">
@@ -74,14 +74,14 @@ const SignUp = () => {
                 </div>
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3"></div>
-                    <Link to="/login" className="md:w-2/3 block text-gray-500 font-bold">
+                    <Link to="/login" className="md:w-2/3 block  text-center text-gray-900 font-bold  lg:text-left">
                         {/* <input className="mr-2 leading-tight" type="checkbox" /> */}
                         <span className="text-sm">
                             Already have an Account?
                         </span>
                     </Link>
                 </div>
-                <div className="md:flex md:items-center">
+                <div className="md:flex md:items-center text-center  lg:text-left">
                     <div className="md:w-1/3"></div>
                     <div className="md:w-2/3">
                         <button className="px-5 py-3 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-8" type="submit">
@@ -90,7 +90,7 @@ const SignUp = () => {
                     </div>
                 </div>
             </form>
-            <button onClick={loginFinalWithGmail} className="bg-opacity-25 flex lg:mb-32  mx-auto py-2 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 px-5 mb-10">
+            <button onClick={loginFinalWithGmail} className="bg-opacity-25 flex lg:mb-32  mx-auto py-3 px-3 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700  mb-10">
                 Login With Google
             </button>
         </div>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <>
-            <footer className="px-6=8 mt-8 py-6 text-gray-600 bg-gray-50 lg:px-8 md:py-12">
+            <footer className="px-6=8 mt-8 py-6 text-gray-600 bg-gray-50 lg:text-left text-center lg:px-8 md:py-12">
                 <div className="max-w-screen-xl py-4 mx-auto mb-6 space-y-6 border-b-2 border-gray-200 lg:mb-4 md:py-4 lg:pb-6 md:flex md:justify-between md:items-center md:flex-row md:space-x-12 ">
                     <div className="flex-1 max-w-3xl ">
                         <h4 className="text-2xl font-medium text-gray-900 sm:text-3xl md:text-4xl">You Think You Know What Happiness  Is?</h4>
@@ -71,11 +71,12 @@ const Footer = () => {
                         <h5 className="text-xl font-semibold text-gray-900">Terms and conditions</h5>
                         <nav className="mt-4">
                             <ul className="space-y-2">
+
                                 <li>
-                                    <Link to="/" className="text-lg font-normal hover:text-purple-900">Security</Link>
+                                    <Link to="/" className="text-lg font-normal hover:text-purple-900">Privacy and Cookie</Link>
                                 </li>
                                 <li>
-                                    <Link to="/" className="text-lg font-normal hover:text-purple-900">Privacy and Cookie Statement</Link>
+                                    <Link to="/" className="text-lg font-normal hover:text-purple-900">Security & Statement</Link>
                                 </li>
                                 <li>
                                     <Link to="/" className="text-lg font-normal hover:text-purple-900">Processor Agreement</Link>

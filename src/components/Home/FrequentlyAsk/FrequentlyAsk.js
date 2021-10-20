@@ -5,7 +5,7 @@ const FrequentlyAsk = () => {
         <div>
             <div>
                 <section className="text-gray-700">
-                    <div className="container px-5 py-24 mx-auto">
+                    <div className="container px-5 pt-16 mx-auto">
                         <div className="text-center mb-20">
                             <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
                                 Frequently Asked Question
