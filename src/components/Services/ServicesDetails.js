@@ -16,12 +16,12 @@ const ServicesDetails = () => {
             });
 
     }, [serviceId])
-    const { id, img, title, description } = singleServices;
+    const {img, title, description } = singleServices;
     return (
         <>
 
             <div class="mx-auto p-5 my-20 bg-white rounded-xl shadow-xl overflow-hidden w-4/6 ">
-                <span className="bg-red-100 border border-red-500 rounded-full text-primary text-sm poppins px-4 py-1 inline-block mb-4 ">{id}</span>
+
                 <div class="md:flex">
                     <div class="md:flex-shrink-0">
                         <img class="h-48 w-full object-cover md:h-80 md:w-80" src={img} alt="img is loading"/>

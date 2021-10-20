@@ -11,7 +11,7 @@ const Banner = () => {
 
                     <div className="rounded-full box-border mt-8 bg-white overflow-hidden focus:outline-none flex items-center">
                         <input type="text" className=" rounded-full px-4 focus:outline-none bg-transparent" placeholder="Search doctor here ......." />
-                        <button className="text-sm bg-primary py-3 px-6  text-white rounded-full bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-5">Search</button>
+                        <button className="text-sm bg-primary py-4 px-7  text-white rounded-full bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-7">Search</button>
                         
                     </div>
                 </div>
