@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useForm } from "react-hook-form";
 import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
@@ -8,7 +8,7 @@ import swal from 'sweetalert';
 
 const SignUp = () => {
     // const [name, setName] = useState('');
-    const [error, setError] = useState('');
+    // const [error, setError] = useState('');
     const { handleSignInWithGoogle, handleCreateUserWithEmailPassword } = useAuth();
     const { register, handleSubmit, formState: { errors } } = useForm();
     const history = useHistory();
@@ -26,7 +26,7 @@ const SignUp = () => {
                 })
             })
             .catch((error) => {
-                setError(error.message);
+                // console.log(error.message);
                 swal({
                     icon: 'error',
                     title: 'Oops...',
@@ -44,7 +44,13 @@ const SignUp = () => {
                 // console.log('login succesfull')
             })
             .catch((error) => {
-                setError(error.message);
+                // console.log(error.message);
+                swal({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: error.message,
+                }
+                );
             })
     };
 

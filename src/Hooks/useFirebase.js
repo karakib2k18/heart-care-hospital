@@ -69,6 +69,7 @@ const useFirebase = () => {
         signOut(auth).then(() => {
         }).catch((error) => {
             console.log("An error happened during the signout signout");
+            console.log(error.message);
         })
             .finally(() => setIsLoading(false));
     }
@@ -79,7 +80,7 @@ const useFirebase = () => {
         isLoading,
         handleSignInWithGoogle,
         handleSignInWithEmailPassword,
-        handleCreateUserWithEmailPassword,
+        handleCreateUserWithEmailPassword
     }
 };
 
