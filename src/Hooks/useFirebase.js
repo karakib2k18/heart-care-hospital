@@ -5,7 +5,6 @@ import initializeAppAuthenticaiton from '../components/Shared/HooksForm/Firebase
 initializeAppAuthenticaiton();
 const useFirebase = () => {
     const [user, setUser] = useState({});
-    // const [error, serError] = useState('');
     const [isLoading, setIsLoading] = useState(true);
 
     const auth = getAuth();

@@ -135,7 +135,6 @@ const SignUp = () => {
 
                 </div>
             </div>
-            <div className="row mb-3 text-danger">{error}</div>
         </div>
 
     );
