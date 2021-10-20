@@ -6,7 +6,7 @@ const BlogCard = ({ blog }) => {
     return (
         <div className="bg-white transform transition duration-700 hover:scale-105 px-10 pt-5 pb-8 border-4 border-light-blue-500 border-opacity-50 rounded-2xl hover:shadow-xl ">
             <div className="overflow-hidden rounded-2xl flex flex-grow ">
-                <img className="transform transition duration-700 hover:scale-125 bg-no-repeat bg-center w-24 h-24 mt-5" src={img} alt="wait wait img is loading" style={{ height: '18rem', width: '19rem' }} />
+                <img class="transform transition duration-700 hover:scale-125  h-64 w-full object-cover md:h-80 md:w-80" src={img} alt="img is loading" />
             </div>
             {/* other info  */}
             <div className="flex mt-6 space-x-3 ">

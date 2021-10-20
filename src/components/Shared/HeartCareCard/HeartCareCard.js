@@ -9,7 +9,7 @@ const HeartCareCard = ({ doctor }) => {
             <p className="text-xl font-medium text-gray-900 poppins custom-color">{specialist}</p>
             {/* image  */}
             <div className="overflow-hidden rounded-2xl flex flex-grow ">
-                <img className="transform transition duration-700 hover:scale-125 bg-no-repeat bg-center w-24 h-24 mt-5" src={img} alt={name} style={{ height: '18rem', width: '19rem' }} />
+                <img class="transform transition duration-700 hover:scale-125  h-64 w-full object-cover md:h-80 md:w-80" src={img} alt="img is loading" />
             </div>
             {/* other info  */}
             <div className="flex mt-6 space-x-3 ">

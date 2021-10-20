@@ -27,8 +27,8 @@ const ServicesDetails = () => {
                         <img class="h-48 w-full object-cover md:h-80 md:w-80" src={img} alt="img is loading"/>
                     </div>
                     <div class="p-8">
-                        <div class="uppercase tracking-wide  text-indigo-600 font-semibold text-3xl">Title: {title}</div>
-                        <p class="mt-2 text-xl text-gray-800">Description: {description}</p>
+                        <div class="uppercase tracking-wide  text-indigo-600 font-semibold text-xl lg:text-3xl">Title: {title}</div>
+                        <p class="mt-2 text-xl lg:text-xl text-gray-800">Description: {description}</p>
                         <Link to='/appointment'><button className="inline-block px-1 py-2 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700  lg:px-8 mt-3" type="submit">
                             Book an Appointment!
                         </button></Link>
